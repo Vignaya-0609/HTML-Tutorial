@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tutorial</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <div class="logo-img">
+                <img src="../assets/img/logo.png" width="55px" height="55px">
+            </div>
+            <div class="logo-name">
+                <h1>HTML Tuto</h1>
+            </div> 
+        </div>
+        <div class="logo-title">
+            <div class="logo-text">
+                <h3>&lt;html&gt;</h3>
+                <p>Start with fresh</p>
+            </div>
+            <div class="search-container">
+                <form action="/action_page.php">
+                  <input type="text" placeholder="Search.." name="search">
+                  <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+              </div>
+        </div>
+    </header>
+    <section class="side-navbar">
+        <div class="side-nav">
+            <a href="../index.html">Home</a>
+            <a href="intro.html">Introduction</a>
+            <a href="editor.html">Editors</a>
+            <a href="page-structure.html">HTML Structure</a>
+            <a href="fundamentals.html">Fundamentals</a>
+            <a href="html-style.html">Styles</a>
+            <a href="graphics.html">Graphics</a>
+            <a href="media.html">Multimedia</a>
+            <a href="semantics.html">Semantics</a>
+            <a href="migration.html">HTML5 Migration</a>
+        </div>
+    </section>
+    <section class="main">
+        <section class="main-content">
+            <section class="semantics">
+                <div class="semantics-heading">
+                    <div class="semantics-title">
+                        <h1>HTML Semantics</h1>
+                    </div>
+                    <div class="semantics-buttons">
+                        <a href="media.html"><i class="fa fa-chevron-left"></i> Back</a>
+                        <a href="migration.html">Next <i class="fa fa-chevron-right"></i></a>
+                    </div>
+                </div>
+                <div class="semantics-content">
+                    <p>HTML5 provides more semantic elements that make an easy understanding of the code.Hence Semantics defines the meaning of words and phrases.</p>
+                    <h3>Non-semantic:</h3>
+                    <p>In HTML4 we have seen <b>&lt;div&gt;, &lt;span&gt;</b> etc. These are non-semantic elements. They don't tell anything about its content.</p>
+                    <h3>Semantic:</h3>
+                    <p>On the other hand, <b>&lt;form&gt;, &lt;table&gt;,</b> and <b>&lt;article&gt;</article></b> etc. These are semantic elements because they clearly define their content.</p>
+                    <h3 id="one">Use of Semantic elements:</h3>
+                    <p>In HTML4, we have to use their own id or class names to style(CSS) elements: header, top, bottom, footer, menu, navigation, main, container, content, article, sidebar, top nav, etc.</p>
+                    <p>Now in HTML5 elements (&lt;header&gt; &lt;footer&gt; &lt;nav&gt; &lt;section&gt; &lt;article&gt;), this will become easier.</p>
+                    <p>Semantic elements can increase the accessibility of your website, and also helps to create a better website structure(design).</p>
+                    <h3 id="two">Semantic Elements in HTML5:</h3>
+                    <table>
+                        <tr>
+                            <th>Element</th>
+                            <th>Description</th>
+                        </tr>
+                        <tr>
+                            <td>&lt;article&gt;</td>
+                            <td>Defines an article</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;aside&gt;</td>
+                            <td>Content aside from the page content</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;details&gt;</td>
+                            <td>Additional information that the user can view/hide</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;figcaption&gt;</td>
+                            <td>Caption for a &lt;figure&gt; element</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;figure&gt;</td>
+                            <td>Illustrations, diagrams, photos, code listings, etc.</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;footer&gt;</td>
+                            <td>Footer for a document or section</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;header&gt;</td>
+                            <td>Header for a document or section</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;main&gt;</td>
+                            <td>Main content of a document</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;mark&gt;</td>
+                            <td>Defines marked/highlighted text</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;nav&gt;</td>
+                            <td>Defines navigation links</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;section&gt;</td>
+                            <td>Defines a section in a document</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;summary&gt;</td>
+                            <td>Visible heading for a &lt;details&gt; element</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;time&gt;</td>
+                            <td>Defines a date/time</td>
+                        </tr>
+                    </table>
+                    <br>
+                    <div class="buttons-bottom">
+                        <a href="media.html"><i class="fa fa-chevron-left"></i> Back</a>
+                        <a href="migration.html">Next <i class="fa fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </section>
+            <section class="card-content">
+                <div class="card">
+                    <h3>In this Article</h3>
+                    <ul>
+                        <li><a href="#one">Use of Semantic Elements</a></li>
+                        <li><a href="#two">Semantic elements in HTML5</a></li>
+                    </ul>
+                </div>
+            </section>
+        </section>
+          
+        <br><br>
+        <section class="footer">
+            <div class="copyrights">
+                <img src="../assets/img/logo.png" width="65px" height="65px">
+                <p>&copy; Copyright 2023. All rights reserved</p>
+                <div class="icons">
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="https://youtu.be/qz0aGYrrlhU?si=7FdMxKKL0s_EYPgi" target="_blank"><i class="fa fa-youtube-play"></i></a>
+                </div>
+            </div>
+            <div class="tuto">
+                <h3>Top Tutorial</h3>
+                <ul>
+                    <li><a href="#">HTML Tutorial</a></li>
+                    <li><a href="#">CSS Tutorial</a></li>
+                    <li><a href="#">JS Tutorial</a></li>
+                    <li><a href="#">Bootstrap Tutorial</a></li>
+                    <li><a href="#">Java Tutorial</a></li>
+                </ul>
+            </div>
+            <div class="reference">
+                <h3>Top Reference</h3>
+                <ul>
+                    <li><a href="#">HTML Reference</a></li>
+                    <li><a href="#">CSS Reference</a></li>
+                    <li><a href="#">JS Reference</a></li>
+                    <li><a href="#">Bootstrap Reference</a></li>
+                    <li><a href="#">Java Reference</a></li>
+                </ul>
+            </div>
+            <div class="contactus">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li><a href="../index.html">htmltuto.com</a></li>
+                    <li><i class="fa fa-envelope"></i>&nbsp;  htmltuto.gmail.com</li>
+                    <li><i class="fa fa-phone"></i>&nbsp;&nbsp;  9876543210</li>
+                    <li><i class="fa fa-map-marker"></i>&nbsp;&nbsp;&nbsp;  Banglore, Karnataka.</li>
+                </ul>
+            </div>
+            <div class="go-top">
+                <div class="move-top">
+                    <a href="#"><i class="fa fa-arrow-circle-up fa-5x"></i></a>
+                </div>
+            </div>
+        </section>  
+    </section>
+</body>
+</html>

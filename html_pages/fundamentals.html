@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tutorial</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <div class="logo-img">
+                <img src="../assets/img/logo.png" width="55px" height="55px">
+            </div>
+            <div class="logo-name">
+                <h1>HTML Tuto</h1>
+            </div> 
+        </div>
+        <div class="logo-title">
+            <div class="logo-text">
+                <h3>&lt;html&gt;</h3>
+                <p>Start with fresh</p>
+            </div>
+            <div class="search-container">
+                <form action="/action_page.php">
+                  <input type="text" placeholder="Search.." name="search">
+                  <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+              </div>
+        </div>
+    </header>
+    <section class="side-navbar">
+        <div class="side-nav">
+            <a href="../index.html">Home</a>
+            <a href="intro.html">Introduction</a>
+            <a href="editor.html">Editors</a>
+            <a href="page-structure.html">HTML Structure</a>
+            <a href="fundamentals.html">Fundamentals</a>
+            <a href="html-style.html">Styles</a>
+            <a href="graphics.html">Graphics</a>
+            <a href="media.html">Multimedia</a>
+            <a href="semantics.html">Semantics</a>
+            <a href="migration.html">HTML5 Migration</a>
+        </div>
+    </section>
+    <section class="main">
+        <section class="main-content">
+            <section class="basics">
+                <div class="basic-heading">
+                    <div class="basic-title">
+                        <h1>Fundamentals</h1>
+                    </div>
+                    <div class="basic-buttons">
+                        <a href="page-structure.html"><i class="fa fa-chevron-left"></i> Back</a>
+                        <a href="html-style.html">Next <i class="fa fa-chevron-right"></i></a>
+                    </div>
+                </div>
+                <div class="basic-content">
+                    <p>In this chapter we will show some basic HTML examples.</p>
+                    <p>Don't worry if we use tags you have not learned about yet.</p>
+                    <br>
+                    <h1 id="one">Comments</h1>
+                    <div class="html-tags">
+                        <p>HTML comments are not displayed in the browser, but they can help document your HTML source code.</p>
+                        <p>Comments can be used to hide content.</p>
+                        <p>This can be helpful if you hide content temporarily.</p>
+                        <h4>Syntax</h4>
+                        <p class="syntax">&lt;!-- Write your comments here --&gt;</p>
+                    </div>
+                    <br>
+                    <h1 id="two">HTML Tags</h1>
+                    <p>Tags are used to mark up the start of an HTML element and they are usually enclosed in angle brackets.<br>
+                        An example of a tag is: <strong>&lt;h1&gt;</strong>.</p>
+                    <p>Most tags must be opened <strong>&lt;h1&gt;</strong> and closed <strong>&lt;/h1&gt;</strong> in order to function.</p>
+                    <div class="html-tags">
+                        <h3>Heading</h3>
+                        <p>HTML headings are defined with the <strong>&lt;h1&gt;</strong> to <strong>&lt;h6&gt;</strong> tags.</p>
+                        <p><strong>&lt;h1&gt;</strong> defines the most important heading. <strong>&lt;h6&gt;</strong> defines the least important heading</p>
+                        <h4>Syntax</h4>
+                        <p class="syntax">&lt;h1&gt;This is my heading 1 &lt;/h1&gt;</p>
+                    </div>
+                    <div class="html-tags">
+                        <h3>Paragraph</h3>
+                        <p>HTML paragraphs are defined with the <strong>&lt;p&gt;</strong> tag:</p>
+                        <h4>Syntax</h4>
+                        <p class="syntax">&lt;p&gt;This is my paragraph &lt;/p&gt;</p>
+                    </div>
+                    <div class="html-tags">
+                        <h3>Links</h3>
+                        <p>HTML links are defined with the <strong>&lt;a&gt;</strong> tag:</p>
+                        <p>The link's destination is specified in the href attribute.</p>
+                        <p>Attributes are used to provide additional information about HTML elements.</p>
+                        <h4>Syntax</h4>
+                        <p class="syntax">&lt;a href="<span style="color:blue;">www.google.com</span>">This is my link &lt;/a&gt;</p>
+                    </div>
+                    <div class="html-tags">
+                        <h3>Images</h3>
+                        <p>HTML images are defined with the <strong>&lt;img&gt;</strong> tag.</p>
+                        <p>The source file (src), alternative text (alt), width, and height are provided as attributes:</p>
+                        <h4>Syntax</h4>
+                        <p class="syntax">&lt;img src="<span style="color:blue;">w3schools.jpg</span>" alt="<span style="color:blue;">W3Schools.com</span>" width="104" height="142"></p>
+                    </div>
+                    <br>
+                    <h3>Formatting Tags</h3>
+                    <table>
+                        <tr>
+                            <th>Element</th>
+                            <th>Description</th>
+                        </tr>
+                        <tr>
+                            <td>&lt;b&gt;</td>
+                            <td>This is a physical tag, which is used to bold the text written between it.</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;strong&gt;</td>
+                            <td>This is a logical tag, which tells the browser that the text is important.</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;i&gt;</td>
+                            <td>This is a physical tag, which is used to make the text italic.</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;em&gt;</td>
+                            <td>This is a logical tag, which is used to display content in italic.</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;mark&gt;</td>
+                            <td>This tag is used to highlight text.</td>
+                        </tr>
+                    </table>
+                    <br><br>
+                    <h1 id="three">Table</h1>
+                    <p>HTML tables allow web developers to arrange data into rows and columns.</p>
+                    <p>A table in HTML consists of table cells inside rows and columns.</p>
+                    <p>A table cell can contain all sorts of HTML elements: text, images, lists, links, other tables, etc.</p>
+                    <p>You can have as many rows as you like in a table; just make sure that the number of cells are the same in each row.</p>
+                    <h4>Syntax</h4><br>
+                    <table>
+                        <tr>
+                            <th>Table Tag</th>
+                            <th>Meaning</th>
+                        </tr>
+                        <tr>
+                            <td>&lt;thead&gt;</td>
+                            <td>Table Head</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;tbody&gt;</td>
+                            <td>Table Body</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;tfoot&gt;</td>
+                            <td>Table Foot</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;colgroup&gt;</td>
+                            <td>Column Group</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;th&gt;</td>
+                            <td>Table Header</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;tr&gt;</td>
+                            <td>Table Row</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;td&gt;</td>
+                            <td>Table Column</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;caption&gt;</td>
+                            <td>Table Description</td>
+                        </tr>
+                    </table>
+                    <br>
+                    <h4>Example</h4><br>
+                    <img src="../assets/img/table.png" width="790px" height="300px">
+                    <br><br>
+                    <h1 id="four">List</h1>
+                    <p>In web design, there are <b>3 different types of lists</b> which you may wish to add to your site.</p>
+                    <h3>Ordered List:</h3>
+                    <p>
+                        &lt;ol&gt;<br>&nbsp;&nbsp;&lt;li&gt;&lt;/li&gt;<br>&lt;/ol&gt;
+                    </p>
+                    <h3>Unordered List:</h3>
+                    <p>
+                        &lt;ul&gt;<br>&nbsp;&nbsp;&lt;li&gt;&lt;/li&gt;<br>&lt;/ul&gt;
+                    </p>
+                    <h3>Description List</h3>
+                    <p>
+                        &lt;dl&gt;<br>&nbsp;&nbsp;&lt;dt&gt;&lt;/dt&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;dd&gt;&lt;/dd&gt<br>&lt;/dl&gt;
+                    </p>
+                    <br>
+                    <img src="../assets/img/lists.png" width="790px" height="300px">
+                    <br><br>
+                    <h1 id="five">Form</h1>
+                    <p>HTML Forms are required to collect different kinds of user inputs fields, such as contact details like text fields, name, email address, phone numbers, buttons, menus, checkboxes, radio-buttons, or details like credit card information, etc.</p>
+                    <h4>Syntax</h4>
+                    <p class="syntax">&lt;form action="server url" method="get/post"&gt;
+                        <br>&nbsp;&nbsp;//input controls e.g. textfield, textarea, radiobutton, button etc<br>
+                        &lt;/form&gt;
+                    </p>
+                    <h4>HTML Form Tags:</h4>
+                    <br>
+                    <table>
+                        <tr>
+                            <th>Form Tag</th>
+                            <th>Meaning</th>
+                        </tr>
+                        <tr>
+                            <td>&lt;form&gt;</td>
+                            <td>Form to enter inputs by the used side</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;input&gt;</td>
+                            <td>Input control</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;textarea&gt;</td>
+                            <td>Multi-line input control</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;label&gt;</td>
+                            <td>Label for an input element</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;fieldset&gt;</td>
+                            <td>Groups the related element in a form</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;legend&gt;</td>
+                            <td>Caption for a &lt;fieldset&gt; element</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;select&gt;</td>
+                            <td>Drop-down list</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;optgroup&gt;</td>
+                            <td>Related options in a drop-down list</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;option&gt;</td>
+                            <td>Option in a drop-down list</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;button&gt;</td>
+                            <td>Clickable button</td>
+                        </tr>
+                    </table>
+                    <br><br>
+                    <h1 id="six">Attributes</h1>
+                    <p>All HTML elements can have attributes.</p>
+                    <p>HTML attributes provide additional information about the elements or attributes and that is the modifier of the HTML element.</p>
+                    <p>Each and every element or tag can have attributes, which define the behavior of that element.</p>
+                    <p>n attribute should always be applied with its name and value pair.</p>
+                    <p>Attributes name and values are case sensitive, and it is recommended by W3C (world wide web) that it should be written in Lowercase only.</p>
+                    <p>Add multiple attributes in one HTML element, but it needs to give space between two attributes.</p>
+                    <h4>Syntax</h4>
+                    <p class="syntax">&lt;element attribute_name="value"&gt;content&lt;/element&gt;</p>
+                    <h4>Example</h4>
+                    <p class="syntax">&lt;img src="mydog.jpg" alt="A photo of my dog."&gt;</p>
+                    <p>In this instance, the image source (src) and the alt text (alt) are attributes of the <b>&lt;img&gt;</b> tag.</p>
+                    <br>
+                    <div class="buttons-bottom">
+                        <a href="page-structure.html"><i class="fa fa-chevron-left"></i> Back</a>
+                        <a href="html-style.html">Next <i class="fa fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </section>
+            <section class="card-content">
+                <div class="card">
+                    <h3>In this Article</h3>
+                    <ul>
+                        <li><a href="#one">Comments</a></li>
+                        <li><a href="#two">HTML Tags</a></li>
+                        <li><a href="#three">Table</a></li>
+                        <li><a href="#four">List</a></li>
+                        <li><a href="#five">Form</a></li>
+                        <li><a href="#six">Attributes</a></li>
+                    </ul>
+                </div>
+            </section>
+        </section>
+         
+        <br><br>
+        <section class="footer">
+            <div class="copyrights">
+                <img src="../assets/img/logo.png" width="65px" height="65px">
+                <p>&copy; Copyright 2023. All rights reserved</p>
+                <div class="icons">
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="https://youtu.be/qz0aGYrrlhU?si=7FdMxKKL0s_EYPgi" target="_blank"><i class="fa fa-youtube-play"></i></a>
+                </div>
+            </div>
+            <div class="tuto">
+                <h3>Top Tutorial</h3>
+                <ul>
+                    <li><a href="#">HTML Tutorial</a></li>
+                    <li><a href="#">CSS Tutorial</a></li>
+                    <li><a href="#">JS Tutorial</a></li>
+                    <li><a href="#">Bootstrap Tutorial</a></li>
+                    <li><a href="#">Java Tutorial</a></li>
+                </ul>
+            </div>
+            <div class="reference">
+                <h3>Top Reference</h3>
+                <ul>
+                    <li><a href="#">HTML Reference</a></li>
+                    <li><a href="#">CSS Reference</a></li>
+                    <li><a href="#">JS Reference</a></li>
+                    <li><a href="#">Bootstrap Reference</a></li>
+                    <li><a href="#">Java Reference</a></li>
+                </ul>
+            </div>
+            <div class="contactus">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li><a href="../index.html">htmltuto.com</a></li>
+                    <li><i class="fa fa-envelope"></i>&nbsp;  htmltuto.gmail.com</li>
+                    <li><i class="fa fa-phone"></i>&nbsp;&nbsp;  9876543210</li>
+                    <li><i class="fa fa-map-marker"></i>&nbsp;&nbsp;&nbsp;  Banglore, Karnataka.</li>
+                </ul>
+            </div>
+            <div class="go-top">
+                <div class="move-top">
+                    <a href="#"><i class="fa fa-arrow-circle-up fa-5x"></i></a>
+                </div>
+            </div>
+        </section>   
+    </section>
+</body>
+</html>

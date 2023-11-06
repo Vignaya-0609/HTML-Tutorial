@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tutorial</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <div class="logo-img">
+                <img src="../assets/img/logo.png" width="55px" height="55px">
+            </div>
+            <div class="logo-name">
+                <h1>HTML Tuto</h1>
+            </div> 
+        </div>
+        <div class="logo-title">
+            <div class="logo-text">
+                <h3>&lt;html&gt;</h3>
+                <p>Start with fresh</p>
+            </div>
+            <div class="search-container">
+                <form action="/action_page.php">
+                  <input type="text" placeholder="Search.." name="search">
+                  <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+              </div>
+        </div>
+    </header>
+    <section class="side-navbar">
+        <div class="side-nav">
+            <a href="../index.html">Home</a>
+            <a href="intro.html">Introduction</a>
+            <a href="editor.html">Editors</a>
+            <a href="page-structure.html">HTML Structure</a>
+            <a href="fundamentals.html">Fundamentals</a>
+            <a href="html-style.html">Styles</a>
+            <a href="graphics.html">Graphics</a>
+            <a href="media.html">Multimedia</a>
+            <a href="semantics.html">Semantics</a>
+            <a href="migration.html">HTML5 Migration</a>
+        </div>
+    </section>
+    <section class="main">
+        <section class="main-content">
+            <section class="page-structure">
+                <div class="structure-heading" id="one">
+                    <div class="structure-title">
+                        <h1>HTML Structure</h1>
+                    </div>
+                    <div class="structure-buttons">
+                        <a href="editor.html"><i class="fa fa-chevron-left"></i> Back</a>
+                        <a href="fundamentals.html">Next <i class="fa fa-chevron-right"></i> </a>
+                    </div>
+                </div>
+                <div class="structure">
+                    <img src="../assets/img/HTML_Structure.png" width="790px" height="400px">
+                    <br>
+                    <p>Here we have the following:</p>
+                    <ul>
+                        <li><span class="tag">&lt;!DOCTYPE html&gt;</span>: It is a required preamble. In the mists of time, when HTML was young (around 1991/92), doctypes were meant to act as links to a set of rules that the HTML page had to follow to be considered good HTML, which could mean automatic error checking and other useful things. However, these days, they don't do much and are basically just needed to make sure your document behaves correctly. That's all you need to know for now.</li>
+                        <li><span class="tag">&lt;html&gt;&lt;/html&gt;</span>: This element wraps all the content on the entire page and is sometimes known as the root element.</li>
+                        <li><span class="tag">&lt;head&gt;&lt;/head&gt;</span>: This element acts as a container for all the stuff you want to include on the HTML page that isn't the content you are showing to your page's viewers.</li>
+                        <li><span class="tag">&lt;title&gt;&lt;/title&gt;</span>: This sets the title of your page, which is the title that appears in the browser tab the page is loaded in. It is also used to describe the page when you bookmark/favorite it.</li>
+                        <li><span class="tag">&lt;body&gt;&lt;/body&gt;</span>: This contains all the content that you want to show to web users when they visit your page, whether that's text, images, videos, games, playable audio tracks, or whatever else.</li>
+                    </ul>
+                    <br>
+                    <h1 id="two">Anatomy of an HTML element</h1>
+                    <img src="../assets/img/anatomy.png" width="790px" height="200px">
+                    <br>
+                    <p>The main parts of our element are as follows:</p>
+                    <ul>
+                        <li><span class="tag">The opening tag:</span> This consists of the name of the element (in this case, p), wrapped in opening and closing angle brackets. This states where the element begins or starts to take effect - in this case where the paragraph begins.</li>
+                        <li><span class="tag">The closing tag:</span> This is the same as the opening tag, except that it includes a forward slash before the element name. This states where the element ends - in this case where the paragraph ends. Failing to add a closing tag is one of the standard beginner errors and can lead to strange results.</li>
+                        <li><span class="tag">The content:</span> This is the content of the element, which in this case, is just text.</li>
+                        <li><span class="tag">The element:</span> The opening tag, the closing tag, and the content together comprise the element.</li>
+                    </ul>
+                    <br>
+                    <div class="buttons-bottom">
+                        <a href="editor.html"><i class="fa fa-chevron-left"></i> Back</a>
+                        <a href="fundamentals.html">Next <i class="fa fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </section>
+            <section class="card-content">
+                <div class="card">
+                    <h3>In this Article</h3>
+                    <ul>
+                        <li><a href="#one">Structure of an HTML Page</a></li>
+                        <li><a href="#two">Anatomy of an HTML Element</a></li>
+                    </ul>
+                </div>
+            </section>
+        </section>
+        
+        <br><br>
+        <section class="footer">
+            <div class="copyrights">
+                <img src="../assets/img/logo.png" width="65px" height="65px">
+                <p>&copy; Copyright 2023. All rights reserved</p>
+                <div class="icons">
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="https://youtu.be/qz0aGYrrlhU?si=7FdMxKKL0s_EYPgi" target="_blank"><i class="fa fa-youtube-play"></i></a>
+                </div>
+            </div>
+            <div class="tuto">
+                <h3>Top Tutorial</h3>
+                <ul>
+                    <li><a href="#">HTML Tutorial</a></li>
+                    <li><a href="#">CSS Tutorial</a></li>
+                    <li><a href="#">JS Tutorial</a></li>
+                    <li><a href="#">Bootstrap Tutorial</a></li>
+                    <li><a href="#">Java Tutorial</a></li>
+                </ul>
+            </div>
+            <div class="reference">
+                <h3>Top Reference</h3>
+                <ul>
+                    <li><a href="#">HTML Reference</a></li>
+                    <li><a href="#">CSS Reference</a></li>
+                    <li><a href="#">JS Reference</a></li>
+                    <li><a href="#">Bootstrap Reference</a></li>
+                    <li><a href="#">Java Reference</a></li>
+                </ul>
+            </div>
+            <div class="contactus">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li><a href="../index.html">htmltuto.com</a></li>
+                    <li><i class="fa fa-envelope"></i>&nbsp;  htmltuto.gmail.com</li>
+                    <li><i class="fa fa-phone"></i>&nbsp;&nbsp;  9876543210</li>
+                    <li><i class="fa fa-map-marker"></i>&nbsp;&nbsp;&nbsp;  Banglore, Karnataka.</li>
+                </ul>
+            </div>
+            <div class="go-top">
+                <div class="move-top">
+                    <a href="#"><i class="fa fa-arrow-circle-up fa-5x"></i></a>
+                </div>
+            </div>
+        </section>
+    </section>
+</body>
+</html>
